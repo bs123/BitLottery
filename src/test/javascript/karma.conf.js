@@ -23,6 +23,23 @@ module.exports = function (config) {
         // list of files / patterns to load in the browser
         files: [
             // bower:js
+            'bower_components/jquery/dist/jquery.js',
+            'bower_components/json3/lib/json3.js',
+            'bower_components/messageformat/messageformat.js',
+            'bower_components/angular/angular.js',
+            'bower_components/angular-aria/angular-aria.js',
+            'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+            'bower_components/angular-cache-buster/angular-cache-buster.js',
+            'bower_components/angular-cookies/angular-cookies.js',
+            'bower_components/ngstorage/ngStorage.js',
+            'bower_components/angular-loading-bar/build/loading-bar.js',
+            'bower_components/angular-resource/angular-resource.js',
+            'bower_components/angular-sanitize/angular-sanitize.js',
+            'bower_components/angular-ui-router/release/angular-ui-router.js',
+            'bower_components/bootstrap-ui-datetime-picker/dist/datetime-picker.js',
+            'bower_components/ng-file-upload/ng-file-upload.js',
+            'bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js',
+            'bower_components/angular-mocks/angular-mocks.js',
             // endbower
             'src/main/webapp/app/app.module.js',
             'src/main/webapp/app/app.state.js',

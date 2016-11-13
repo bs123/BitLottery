@@ -13,3 +13,8 @@ hs_err_pid*
 
 node_modules/
 npm-debug.log
+
+.idea/
+bit-lottery.iml
+bower_components/
+target/
