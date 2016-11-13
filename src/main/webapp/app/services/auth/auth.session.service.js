@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .factory('AuthServerProvider', AuthServerProvider);
 
     AuthServerProvider.$inject = ['$http', '$localStorage' ];

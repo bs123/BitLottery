@@ -1,6 +1,6 @@
 package de.tum.hack.repository;
 
-import de.tum.hack.BitLotteryApp;
+import de.tum.hack.BitLotteryCleanApp;
 import de.tum.hack.domain.SocialUserConnection;
 
 import org.junit.Before;
@@ -30,7 +30,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BitLotteryApp.class)
+@SpringBootTest(classes = BitLotteryCleanApp.class)
 public class CustomSocialUsersConnectionRepositoryIntTest {
 
     private ConnectionFactoryRegistry connectionFactoryRegistry;

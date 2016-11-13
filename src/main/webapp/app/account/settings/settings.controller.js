@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .controller('SettingsController', SettingsController);
 
     SettingsController.$inject = ['Principal', 'Auth'];

@@ -1,4 +1,4 @@
-beforeEach(module('bitLotteryApp'));
+beforeEach(module('bitLotteryCleanApp'));
 /**
  * returns a function whose angular will be replaced
  * with whatever mock was supplied.

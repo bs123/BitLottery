@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .controller('JhiMetricsMonitoringModalController', JhiMetricsMonitoringModalController);
 
     JhiMetricsMonitoringModalController.$inject = ['$uibModalInstance', 'threadDump'];

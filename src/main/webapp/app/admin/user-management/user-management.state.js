@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .config(stateConfig);
 
     stateConfig.$inject = ['$stateProvider'];
@@ -47,7 +47,7 @@
             url: '/user/:login',
             data: {
                 authorities: ['ROLE_ADMIN'],
-                pageTitle: 'BitLottery'
+                pageTitle: 'BitLottery_clean'
             },
             views: {
                 'content@': {

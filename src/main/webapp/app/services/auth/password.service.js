@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .factory('Password', Password);
 
     Password.$inject = ['$resource'];

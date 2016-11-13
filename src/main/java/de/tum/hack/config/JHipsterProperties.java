@@ -134,7 +134,7 @@ public class JHipsterProperties {
 
     public static class Mail {
 
-        private String from = "BitLottery@localhost";
+        private String from = "BitLottery_clean@localhost";
 
         public String getFrom() {
             return from;
@@ -170,9 +170,9 @@ public class JHipsterProperties {
 
     public static class Swagger {
 
-        private String title = "BitLottery API";
+        private String title = "BitLottery_clean API";
 
-        private String description = "BitLottery API documentation";
+        private String description = "BitLottery_clean API documentation";
 
         private String version = "0.0.1";
 
@@ -341,7 +341,7 @@ public class JHipsterProperties {
 
             private int port = 2003;
 
-            private String prefix = "BitLottery";
+            private String prefix = "BitLottery_clean";
 
             public boolean isEnabled() {
                 return enabled;

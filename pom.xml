@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>de.tum.hack</groupId>
-    <artifactId>bit-lottery</artifactId>
+    <artifactId>bit-lottery-clean</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>Bit Lottery</name>
+    <name>Bit Lottery Clean</name>
 
     <prerequisites>
         <maven>3.0.0</maven>
@@ -558,7 +558,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.10</version>
                 <configuration>
-                    <imageName>bitlottery</imageName>
+                    <imageName>bitlottery_clean</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
@@ -717,15 +717,6 @@
                                 </goals>
                                 <configuration>
                                     <arguments>install</arguments>
-                                </configuration>
-                            </execution>
-                            <execution>
-                                <id>npm rebuild node-sass</id>
-                                <goals>
-                                    <goal>npm</goal>
-                                </goals>
-                                <configuration>
-                                    <arguments>rebuild node-sass</arguments>
                                 </configuration>
                             </execution>
                             <execution>

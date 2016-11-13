@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .controller('SocialRegisterController', SocialRegisterController);
 
     SocialRegisterController.$inject = ['$filter', '$stateParams'];

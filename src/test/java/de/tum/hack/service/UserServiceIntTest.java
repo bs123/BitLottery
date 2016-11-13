@@ -1,6 +1,6 @@
 package de.tum.hack.service;
 
-import de.tum.hack.BitLotteryApp;
+import de.tum.hack.BitLotteryCleanApp;
 import de.tum.hack.domain.PersistentToken;
 import de.tum.hack.domain.User;
 import de.tum.hack.repository.PersistentTokenRepository;
@@ -25,7 +25,7 @@ import static org.assertj.core.api.Assertions.*;
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BitLotteryApp.class)
+@SpringBootTest(classes = BitLotteryCleanApp.class)
 public class UserServiceIntTest {
 
     @Inject

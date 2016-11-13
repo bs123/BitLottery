@@ -1,4 +1,4 @@
-# BitLottery
+# BitLottery_clean
 
 This application was generated using JHipster 3.10.0, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v3.10.0](https://jhipster.github.io/documentation-archive/v3.10.0).
 
@@ -31,7 +31,7 @@ For further instructions on how to develop with JHipster, have a look at [Using 
 
 ## Building for production
 
-To optimize the BitLottery application for production, run:
+To optimize the BitLottery_clean application for production, run:
 
     ./mvnw -Pprod clean package
 

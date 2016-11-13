@@ -25,7 +25,7 @@ spring:
     data:
         mongodb:
             uri: mongodb://localhost:27017
-            database: BitLottery
+            database: BitLottery_clean
     mail:
         host: localhost
         port: 25
@@ -47,9 +47,9 @@ jhipster:
     security:
         rememberMe:
             # security key (this key should be unique for your application, and kept secret)
-            key: c4ce38d2a6d6c581335714de628a301fec452844
+            key: dc838f6ade779fb0a220602a7f917bd274dfc6be
     mail: # specific JHipster mail property, for standard properties see MailProperties
-        from: BitLottery@localhost
+        from: BitLottery_clean@localhost
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
         spark:
@@ -60,7 +60,7 @@ jhipster:
             enabled: false
             host: localhost
             port: 2003
-            prefix: BitLottery
+            prefix: BitLottery_clean
         logs: # Reports Dropwizard metrics in the logs
             enabled: false
             reportFrequency: 60 # in seconds

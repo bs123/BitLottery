@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('bitLotteryApp')
+    angular.module('bitLotteryCleanApp')
         .controller('HealthModalController', HealthModalController);
 
     HealthModalController.$inject = ['$uibModalInstance', 'currentHealth', 'baseName', 'subSystemName'];

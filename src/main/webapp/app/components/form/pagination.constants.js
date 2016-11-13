@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .constant('paginationConstants', {
             'itemsPerPage': 20
         });

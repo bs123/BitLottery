@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .factory('DataUtils', DataUtils);
 
     DataUtils.$inject = ['$window'];

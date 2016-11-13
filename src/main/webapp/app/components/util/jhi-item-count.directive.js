@@ -15,6 +15,6 @@
     };
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .component('jhiItemCount', jhiItemCount);
 })();

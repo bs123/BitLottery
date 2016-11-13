@@ -11,7 +11,7 @@
     };
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .component('jhiAlert', jhiAlert);
 
     jhiAlertController.$inject = ['$scope', 'AlertService'];

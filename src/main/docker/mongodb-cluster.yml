@@ -1,17 +1,17 @@
 version: '2'
 services:
-    bitlottery-mongodb:
-        container_name: bitlottery-mongodb
+    bitlottery_clean-mongodb:
+        container_name: bitlottery_clean-mongodb
         image: mongo:3.3.12
         ports:
             - "27017:27017"
-        command: mongos --configdb bitlottery-mongodb-config
-    bitlottery-mongodb-node:
+        command: mongos --configdb bitlottery_clean-mongodb-config
+    bitlottery_clean-mongodb-node:
         build:
             context: .
             dockerfile: mongodb/MongoDB.Dockerfile
         command: mongod --replSet rs1 --noprealloc --smallfiles
-    bitlottery-mongodb-config:
+    bitlottery_clean-mongodb-config:
         image: mongo:mongo:3.3.12
-        container_name: bitlottery-mongodb-config
+        container_name: bitlottery_clean-mongodb-config
         command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .factory('errorHandlerInterceptor', errorHandlerInterceptor);
 
     errorHandlerInterceptor.$inject = ['$q', '$rootScope'];
@@ -16,7 +16,7 @@
 
         function responseError (response) {
             if (!(response.status === 401 && (response.data === '' || (response.data.path && response.data.path.indexOf('/api/account') === 0 )))) {
-                $rootScope.$emit('bitLotteryApp.httpError', response);
+                $rootScope.$emit('bitLotteryCleanApp.httpError', response);
             }
             return $q.reject(response);
         }

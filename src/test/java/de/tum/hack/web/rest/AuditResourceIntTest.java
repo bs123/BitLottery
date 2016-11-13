@@ -1,6 +1,6 @@
 package de.tum.hack.web.rest;
 
-import de.tum.hack.BitLotteryApp;
+import de.tum.hack.BitLotteryCleanApp;
 import de.tum.hack.config.audit.AuditEventConverter;
 import de.tum.hack.domain.PersistentAuditEvent;
 import de.tum.hack.repository.PersistenceAuditEventRepository;
@@ -30,7 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  *
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BitLotteryApp.class)
+@SpringBootTest(classes = BitLotteryCleanApp.class)
 public class AuditResourceIntTest {
 
     private static final String SAMPLE_PRINCIPAL = "SAMPLE_PRINCIPAL";

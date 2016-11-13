@@ -1,6 +1,6 @@
 package de.tum.hack.service;
 
-import de.tum.hack.BitLotteryApp;
+import de.tum.hack.BitLotteryCleanApp;
 import de.tum.hack.domain.Authority;
 import de.tum.hack.domain.User;
 import de.tum.hack.repository.AuthorityRepository;
@@ -27,7 +27,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BitLotteryApp.class)
+@SpringBootTest(classes = BitLotteryCleanApp.class)
 public class SocialServiceIntTest {
 
     @Inject

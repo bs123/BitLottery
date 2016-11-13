@@ -11,7 +11,7 @@
     };
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .component('jhiAlertError', jhiAlertError);
 
     jhiAlertErrorController.$inject = ['$scope', 'AlertService', '$rootScope'];
@@ -36,7 +36,7 @@
             );
         }
 
-        var cleanHttpErrorListener = $rootScope.$on('bitLotteryApp.httpError', function (event, httpResponse) {
+        var cleanHttpErrorListener = $rootScope.$on('bitLotteryCleanApp.httpError', function (event, httpResponse) {
             var i;
             event.stopPropagation();
             switch (httpResponse.status) {
@@ -46,8 +46,8 @@
                 break;
 
             case 400:
-                var errorHeader = httpResponse.headers('X-bitLotteryApp-error');
-                var entityKey = httpResponse.headers('X-bitLotteryApp-params');
+                var errorHeader = httpResponse.headers('X-bitLotteryCleanApp-error');
+                var entityKey = httpResponse.headers('X-bitLotteryCleanApp-params');
                 if (errorHeader) {
                     var entityName = entityKey;
                     addErrorAlert(errorHeader, errorHeader, {entityName: entityName});

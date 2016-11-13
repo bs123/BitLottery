@@ -13,14 +13,14 @@
 
 spring:
     application:
-        name: BitLottery
+        name: BitLottery_clean
     jackson:
         serialization.write_dates_as_timestamps: false
     data:
         mongodb:
             host: localhost
             port: 27117
-            database: BitLottery
+            database: BitLottery_clean
     mail:
         host: localhost
     mvc:
@@ -52,12 +52,12 @@ jhipster:
     security:
         rememberMe:
             # security key (this key should be unique for your application, and kept secret)
-            key: c4ce38d2a6d6c581335714de628a301fec452844
+            key: dc838f6ade779fb0a220602a7f917bd274dfc6be
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
     swagger:
-        title: BitLottery API
-        description: BitLottery API documentation
+        title: BitLottery_clean API
+        description: BitLottery_clean API documentation
         version: 0.0.1
         termsOfServiceUrl:
         contactName:

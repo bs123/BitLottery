@@ -1,6 +1,6 @@
 package de.tum.hack.web.rest;
 
-import de.tum.hack.BitLotteryApp;
+import de.tum.hack.BitLotteryCleanApp;
 import de.tum.hack.domain.Authority;
 import de.tum.hack.domain.User;
 import de.tum.hack.repository.AuthorityRepository;
@@ -40,7 +40,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BitLotteryApp.class)
+@SpringBootTest(classes = BitLotteryCleanApp.class)
 public class AccountResourceIntTest {
 
     @Inject

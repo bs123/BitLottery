@@ -18,7 +18,7 @@ management:
             enabled: false # When using the MailService, configure an SMTP server and set this to true
 spring:
     application:
-        name: BitLottery
+        name: BitLottery_clean
     profiles:
         # The commented value for `active` can be replaced with valid spring profiles to load.
         # Otherwise, it will be filled in by maven when building the WAR file
@@ -77,10 +77,10 @@ jhipster:
         #allow-credentials: true
         #max-age: 1800
     mail:
-        from: BitLottery@localhost
+        from: BitLottery_clean@localhost
     swagger:
-        title: BitLottery API
-        description: BitLottery API documentation
+        title: BitLottery_clean API
+        description: BitLottery_clean API documentation
         version: 0.0.1
         termsOfServiceUrl:
         contactName:

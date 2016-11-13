@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('bitLotteryApp')
+        .module('bitLotteryCleanApp')
         .factory('SocialService', SocialService);
 
     SocialService.$inject = ['$http', '$cookies'];
