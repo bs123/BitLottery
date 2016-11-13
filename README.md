@@ -1,5 +1,14 @@
 # BitLottery_clean
 
+docker doku
+ docker-compose -f src/main/docker/mongodb.yml up -d
+
+bower update
+npm install && bower install && gulp install             
+./mvnw
+gulp 
+
+
 This application was generated using JHipster 3.10.0, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v3.10.0](https://jhipster.github.io/documentation-archive/v3.10.0).
 
 ## Development

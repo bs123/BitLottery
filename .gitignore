@@ -136,3 +136,7 @@ deploy/
 # ESLint
 ######################
 .eslintcache
+
+bower_components/
+src/main/webapp/bower_components/
+
